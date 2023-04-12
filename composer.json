@@ -1,0 +1,28 @@
+{
+  "name": "amb/opensearch-component",
+  "type": "library",
+  "description": "Laminas component for OpenSearch",
+  "keywords": [
+    "OpenSearch",
+    "Laminas"
+  ],
+  "license": "MIT",
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": "^8.1",
+    "iampersistent/config-value-component": "^1.1",
+    "opensearch-project/opensearch-php": "^2.0"
+  },
+  "require-dev": {
+    "codeception/codeception": "^5.0",
+    "codeception/module-asserts": ">1.0.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "AMB\\OpenSearch\\": "src"
+    }
+  }
+}
